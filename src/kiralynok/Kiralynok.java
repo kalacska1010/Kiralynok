@@ -9,6 +9,12 @@ public class Kiralynok {
         Tabla tabla = new Tabla('#');
         tabla.megjelenit();
         
+       // 6. feladat
+       
+        System.out.println("6. feladat: feltöltött tábla:");
+        
+        tabla.elhelyez(8);
+        tabla.megjelenit();
     }
     
 }
